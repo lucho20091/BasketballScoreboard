@@ -88,3 +88,29 @@ body {
     font-size: 2.2em;
     margin: 0;
 }
+@media (max-width: 700px){
+    .container{
+        gap: 1em;
+    }
+    .bottom-btns button{
+        padding: 0.4em;
+        font-size: 1em;
+    }
+    .background{
+        height: 30em;
+    }
+    .number{
+        width: 1em;
+        height: 1em;
+        font-size: 4em;
+    }
+    .title-content{
+        font-size: 2em;
+    }
+    #reset{
+        font-size: 1em;
+    }
+    #leader{
+        font-size: 2em;
+    }
+}
