@@ -14,18 +14,18 @@
                     <h1 class="title-content">Home</h1>
                     <div class="number" id="number1">0</div>
                     <div class="bottom-btns">
-                        <button id="add1home">+1</button>
-                        <button id="add2home">+2</button>
-                        <button id="add3home">+3</button>
+                        <button class="btn" onclick="add(`home`, 1)">+1</button>
+                        <button class="btn" onclick="add(`home`, 2)">+2</button>
+                        <button class="btn" onclick="add(`home`, 3)">+3</button>
                     </div>
                 </div>
                 <div class="guest-content">
                     <h1 class="title-content">Guest</h1>
                     <div class="number" id="number2">0</div>
                     <div class="bottom-btns">
-                        <button id="add1guest">+1</button>
-                        <button id="add2guest">+2</button>
-                        <button id="add3guest">+3</button>
+                        <button class="btn" onclick="add(`guest`, 1)">+1</button>
+                        <button class="btn" onclick="add(`guest`, 2)">+2</button>
+                        <button class="btn" onclick="add(`guest`, 3)">+3</button>
                 </div>
             </div>
             </div>
@@ -33,7 +33,7 @@
                 <p id="leader"></p>
             </div>
             <div class="btn-reset">
-                <button id="reset">Reset Score</button>
+                <button id="reset" onclick="reset()">Reset Score</button>
             </div>
         </div>
     </div>
